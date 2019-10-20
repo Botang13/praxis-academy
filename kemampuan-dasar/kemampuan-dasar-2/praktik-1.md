@@ -1,6 +1,6 @@
-#Praktik 1 - Getting Started
+# Praktik 1 - Getting Started
 
-###Step 1: Alice creates a new project and hosts it on GitHub.
+### Step 1: Alice creates a new project and hosts it on GitHub.
 
 young@master  ~/Documents  mkdir rhymes
  young@master  ~/Documents  cd rhymes 
