@@ -1,0 +1,35 @@
+⚙ young@master  ~/Documents/praxis-academy  ls 
+kemampuan-dasar-1
+ ⚙ young@master  ~/Documents/praxis-academy  ls -R
+.:
+kemampuan-dasar-1
+
+./kemampuan-dasar-1:
+latihan
+
+./kemampuan-dasar-1/latihan:
+env.txt  grub.txt  kernel-linux.txt
+ ⚙ young@master  ~/Documents/praxis-academy  ls -al
+total 12
+drwxr-xr-x 3 young young 4096 Oct 18 19:24 .
+drwxr-xr-x 8 young young 4096 Oct 18 19:24 ..
+drwxr-xr-x 3 young young 4096 Oct 18 19:24 kemampuan-dasar-1
+ ⚙ young@master  ~/Documents/praxis-academy  ls -a
+.  ..  kemampuan-dasar-1
+ ⚙ young@master  ~/Documents/praxis-academy  cat > sample1
+This is sample1
+ ⚙ young@master  ~/Documents/praxis-academy  cat sample1 
+This is sample1
+ ⚙ young@master  ~/Documents/praxis-academy  cat > sample2
+This is sample2
+ ⚙ young@master  ~/Documents/praxis-academy  cat sample1 sample2 > sample
+⚙ young@master  ~/Documents/praxis-academy  cat sample
+This is sample1
+This is sample2
+⚙ young@master  ~/Documents/praxis-academy  rm sample1
+ ⚙ young@master  ~/Documents/praxis-academy  mv sample2 kemampuan-dasar-1 
+ ⚙ young@master  ~/Documents/praxis-academy  cd kemampuan-dasar-1 
+ ⚙ young@master  ~/Documents/praxis-academy/kemampuan-dasar-1  ls
+latihan  sample2
+ ⚙ young@master  ~/Documents/praxis-academy/kemampuan-dasar-1  
+

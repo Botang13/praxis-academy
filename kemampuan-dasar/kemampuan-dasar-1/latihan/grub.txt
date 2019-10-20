@@ -1,0 +1,9 @@
+initrd=\initramfs-linux.img root=UUID=6954dbaf-66ec-4b44-a427-f4eb7ee1a45c rw
+
+-initrd (initial ramdisk) adalah skema memuat sistem file root sementara ke dalam memori
+
+-initrd akan memuat file initramfs-linux.img dimana initamfs-linux.img adalah Linux Kernel Image
+
+-root menggunakan UUID (Universal Unique Identifier) dengan id 6954dbaf-66ec-4b44-a427-f4eb7ee1a45c
+
+-rw artinya rewriteable

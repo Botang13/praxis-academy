@@ -1,0 +1,11 @@
+#Lokasi Kernel Linux ada di /boot
+#Isi file
+
+ls /boot 
+
+3d18207ae76e453bbdbf4960fe23c034  initramfs-linux.img  syslinux
+amd-ucode.img                     intel-ucode.img      vmlinuz-linux
+EFI                               loader
+initramfs-linux-fallback.img      memtest86+
+
+
